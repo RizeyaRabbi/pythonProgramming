@@ -36,12 +36,15 @@ if a == b or b < c:
     print("at least one condition is true")
 '''
 # Nested if
+'''
 if a == b:
     print("==")
     if b > c:
         print(">>")
-
+'''
 # pass statement
 # if statement can not be empty. For no statement just need to use pass
+'''
 if a == b:
     pass
+'''
