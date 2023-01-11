@@ -42,9 +42,9 @@ class student:
 
     def grd(self):
         if (self.sub1+self.sub2+self.sub3) >= 240:
-            print("A+")
+            print("Grade: A+")
         if (self.sub1+self.sub2+self.sub3) < 120:
-            print("F")
+            print("Grade: F")
 
 
 s0 = student("aaa", 80, 90, 95)
