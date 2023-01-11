@@ -27,3 +27,28 @@ class testClass:
 obj = testClass()
 obj.sum(5, 6)
 '''
+
+# Example with constructor
+'''
+class student:
+    def __init__(self, name, sub1, sub2, sub3):
+        self.name = name
+        self.sub1 = sub1
+        self.sub2 = sub2
+        self.sub3 = sub3
+
+    def tnm(self):
+        print(self.name+" Total number:", self.sub1+self.sub2+self.sub3)
+
+    def grd(self):
+        if (self.sub1+self.sub2+self.sub3) >= 240:
+            print("A+")
+        if (self.sub1+self.sub2+self.sub3) < 120:
+            print("F")
+
+
+s0 = student("aaa", 80, 90, 95)
+s1 = student("bbb", 30, 35, 28)
+print(s0.tnm(), s0.grd())
+print(s1.tnm(), s1.grd())
+'''
