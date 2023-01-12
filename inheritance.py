@@ -1,5 +1,5 @@
 # Python inheritance
-
+'''
 class parentClass:
     def __init__(self, num1=500, num2=100):
         self.number1 = num1
@@ -23,3 +23,4 @@ object1.sum()
 
 object2 = parentClass()
 object2.sum()
+'''
