@@ -8,6 +8,11 @@ tuple0 = ("apple", "banana", "cherry", "apple", "cherry")
 print(tuple0)
 print("banana" in tuple0)
 
+# have to include a comma, even though there is only one value
+tupleWithSingleValue = (1,)
+print(len(tupleWithSingleValue))
+print(tupleWithSingleValue[0])
+
 # Access Tuple Items
 '''
 tuple0 = ("apple", "banana", "cherry", "apple", "cherry")

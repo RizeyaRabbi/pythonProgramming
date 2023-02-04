@@ -107,11 +107,11 @@ device = {
            "Year": 2022
            },
 
-    "Phone": {"brand": "aaa",
+    "Phone": {"brand": "samsung",
               "Price": 1000,
               "Year": 2020
               },
-    "Tab": {"brand": "bbb",
+    "Tab": {"brand": "apple",
             "Price": 1500,
             "Year": 2023
             }
