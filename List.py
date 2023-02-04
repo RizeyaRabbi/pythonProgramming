@@ -6,6 +6,13 @@ liststring = ["One", "two", "Three", "four", "Five"]
 listint = [1, 2, 3, 4, 5]
 listbool = [True, False, True, False, True]
 listUsinglistConstructor = list((1, 2, 3, 4, 5))
+listMixed = [1, "a", 0.22, "str"]
+
+print(type(listMixed))
+print(type(listMixed[0]))
+print(type(listMixed[1]))
+print(type(listMixed[2]))
+print(type(listMixed[3]))
 '''
 print(liststring)
 print(listint)
@@ -68,6 +75,7 @@ listint.extend(liststring)
 print(listint)
 '''
 # Remove item
+# deletes the value
 '''
 print(listint)
 listint.remove(1)
